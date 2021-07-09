@@ -32,7 +32,7 @@ var index = 1
 console.log(languages[index])
 
 // a) Your answer: "Ruby"
-// b) Verify and explain: we're logging the value of an element in the languages array that is at [index]. index is holding 1, so we the element at index 1 -- the second element.
+// b) Verify and explain: we're logging the value of an element in the languages array that is at [index]. index is holding 1, so we log the value of the element at languages[1]: "Ruby".
 
 
 // --------------------4) What will this log?

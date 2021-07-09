@@ -14,15 +14,7 @@ var temp1 = 35
 var temp2 = 350
 var temp3 = 212
 
-// create a function that
-// accepts a number 
-// determines whether it is 
-// above boiling point 
-// at boiling point 
-// or below boiling point
-// returns the number and an appropriate message 
-
-//created a function that takes a number
+//create a function that takes a number
 const thermomatize =(number) =>{
     
     //constant that we'll check against 
@@ -87,7 +79,7 @@ var myString1 = "bravo"
 var myString2 = "charlie"
 
 //create a function that takes a string
-const reverserator = (string) =>{
+const reverserate = (string) =>{
     //taking the string and splitting it into an array of characters
     //reversing that array using an array method
     //joining that array into a string with empty strings between the characters
@@ -97,8 +89,11 @@ const reverserator = (string) =>{
 
 }
 
-console.log(reverserator(myString1))
-console.log(reverserator(myString2))
+
+
+
+console.log(reverserate(myString1))
+console.log(reverserate(myString2))
 
 
 // --------------------4) Create a function that takes in two numbers and subtracts the smaller number from the larger number.
@@ -111,6 +106,7 @@ var numberExample3 = 7
 var numberExample4 = 19
 
 //create a function that takes two numbers
+//function name should should brought be a verb, sorry.
 const bigGreenSubtractor = (numOne,numTwo) =>{
     //return if not a number
     if (typeof numOne !== "number" || typeof numTwo !== "number") return "please enter two numbers."
